@@ -1,0 +1,65 @@
+ @media (max-width: 767px) {
+    .hero-img { width: 70% ; height: auto; }
+    .smal-div { position: relative;  left: -1% !important; bottom: -10% !important; font-size: 14px ; }
+    
+    .carousel-controls { 
+        display: flex; 
+        justify-content: center; 
+        align-items: center;
+        gap: 10px !important; 
+        margin-top: 15px; 
+    }
+    .bu-1 { left: 35% !important; } 
+    .bu-2 { right: 35% !important; } 
+    
+    .bu-3 {bottom: -50% !important;left: 1%; margin: auto 15px ;}
+    .flex-container { 
+        display: flex; 
+        flex-wrap: wrap; 
+        justify-content: space-between; 
+    }
+    .flex-1 { width: 48% !important; }
+
+    .team-grid { 
+        grid-template-columns: 1fr !important; 
+        text-align: center; 
+    }
+}
+@media (max-width: 767px) {
+    .title, 
+    .div-title div:last-child, 
+    .center-1, 
+    .row > div:first-child, 
+    .tail, 
+    .last-div, 
+    #contact .contanier {
+        flex-direction: column;
+    }
+
+    .div-title,
+    .hero-img,
+    .flex-1,
+    #home .button1,
+    #home .button2,
+    #we-do .box,
+    #we-do .box1,
+    .right-con,
+    .input,
+    .col {
+        width: 100% !important;
+    }
+    .bu-3 {width: 90% !important;}
+    .hero-img { height: auto; }
+    .smal-div { position: static; margin-top: 15px; }
+    .title { text-align: center; }
+    .last-div { text-align: center; gap: 15px; }
+    .center-1 { gap: 20px; }
+    
+    .carousel-item .flex-1:not(:first-child) { display: none; }
+
+    #we-do .inner { flex-wrap: wrap; }
+    .team-grid { grid-template-columns: 1fr; }
+    .tail {text-align: start; gap: 20px;}
+    
+}
+
